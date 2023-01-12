@@ -1,0 +1,27 @@
+public class Song{
+  private int songLength;
+  private boolean isCool;
+  private String chorus;
+  
+  public Song(int songLength, boolean isCool, String chorus){
+      this.songLength = songLength;
+      this.isCool = isCool;
+      this.chorus = chorus;
+      
+    }
+  public Song(){
+      songLength =0;
+      isCool = false;
+      chorus = null; 
+      
+    }
+  public int getLength(){
+      return songLength;
+    }
+      
+  public String toString(){
+      String ret = "Song Length: " + songLength + "\nIscool: " + isCool + "\nThe Chorus: " + chorus;
+      return ret;
+    }
+   
+}
