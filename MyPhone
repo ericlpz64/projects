@@ -1,0 +1,22 @@
+public class MyPhone{
+  private String color;
+  private double memoryCap;
+  private Song[] songList;
+  public MyPhone(String color, double memoryCap){
+      this.color = color;
+      this.memoryCap = memoryCap;
+      
+      Song[] list = new Song[4];
+      Song song1 = new Song(426, false, "wow");
+      Song song2 = new Song(476, false, "clash");
+      Song song3 = new Song(378, true, "bread");
+      Song song4 = new Song(523, true, "Free Bird");
+      
+      list[0] = song1;
+      list[1] = song2;
+      list[2] = song3;
+      list[3] = song4;
+      songList = list;
+    }
+
+}
