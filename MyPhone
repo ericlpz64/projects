@@ -18,5 +18,11 @@ public class MyPhone{
       list[3] = song4;
       songList = list;
     }
-
+    public int totalPlayTime(Song[] songList){
+        int sum = 0;
+        for(int i=0;i<songList.length;i++){
+        sum += songList[i].getLength();
+    }
+        return sum;
+    }
 }
