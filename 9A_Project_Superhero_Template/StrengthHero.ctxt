@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=StrengthHero
+comment1.params=name\ place\ liftingCapacitykg
+comment1.target=StrengthHero(java.lang.String,\ java.lang.String,\ double)
+comment2.params=liftingCapacitykg\ liftingCapacitylbs
+comment2.target=double\ kgtolbs(double,\ double)
+comment3.params=
+comment3.target=java.lang.String\ getMotto()
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AquaHero
+comment1.params=name\ place\ Swimspeed
+comment1.target=AquaHero(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getMotto()
+numComments=3
